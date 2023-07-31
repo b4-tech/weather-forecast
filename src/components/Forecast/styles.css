@@ -1,0 +1,26 @@
+.weather--data {
+	margin-bottom: 150px;
+}
+
+.weather--data-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+
+.forecast--day {
+	font-size: 50px;
+	text-align: center;
+}
+
+
+.weather--temperature {
+	font-size: 50px;
+}
+
+.weather--city {
+	text-align: center;
+	font-size: 30px;
+}

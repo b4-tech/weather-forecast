@@ -1,0 +1,4 @@
+.trip-modal--container {
+	display: flex;
+	max-width: 150px;
+}

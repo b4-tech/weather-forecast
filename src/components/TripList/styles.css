@@ -1,0 +1,16 @@
+.trip-modal--container {
+	display: flex;
+	flex-direction: column;
+	color: grey;
+}
+
+
+
+
+.trip-modal-city-name {
+	font-size: 15px;
+}
+
+.trip-modal-date {
+	font-size: 12px;
+}

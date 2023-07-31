@@ -1,0 +1,11 @@
+.navigation--container {
+	padding-top: 30px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 150px;
+}
+
+.navigation--logo {
+	width: 60px;
+}
