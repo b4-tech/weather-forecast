@@ -1,14 +1,14 @@
-import Logo from "../Logo/Logo"
-import SearchBar from "../SearchBar/SearchBar"
-import TripList from "../TripList/TripList"
-import './styles.css'
+import Logo from "../Navigation/Logo"
+import ForecastList from "./ForecastList"
+import TripList from "./TripList"
+import './index.css'
 
 const TripSection = () => {
 	return (
 		<div className="trip-section--container">
 			<Logo />
-			<SearchBar />
 			<TripList />
+			<ForecastList />
 		</div>
 	)
 }
