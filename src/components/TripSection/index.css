@@ -1,0 +1,87 @@
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+	display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.trip-section--container {
+	margin-left: 25px;
+}
+
+.weather--icon {
+	max-width: 60px;
+	max-height: 30px;
+}
+
+.trip-modal--container {
+	display: flex;
+	flex-direction: column;
+	color: grey;
+	max-width: 200px;
+	height: 250px;
+	margin-right: 20px;
+	background-color: rgb(252, 249, 249);
+}
+
+.trip-modal-destination-img {
+	max-width: 300px;
+	height: 300px;
+	width: auto;
+}
+
+
+.trip-modal-destination-name {
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.trip-modal-date {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.active {
+	border: 2px solid lightblue;
+}
+
+.tripItem {
+	min-width: calc(100% / 4);
+	flex-shrink: 0;
+}
+
+.addTrip {
+	border: none;
+	width: 170px;
+	height: 170px;
+	background-color: rgb(252, 249, 249);
+}
+
+.addTrip span {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+
+.forecast-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin-top: 40px;
+	min-width: calc(100% / 4);
+	flex-shrink: 0;
+}
+
+.forecast-modal--container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: grey;
+	min-width: 90px;
+	height: 250px;
+	margin-right: 20px;
+}

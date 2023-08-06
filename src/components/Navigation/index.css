@@ -1,0 +1,29 @@
+.search-bar--container {
+	margin-bottom: 30px;
+	margin-left: 23px;
+}
+
+.search-bar--container input {
+	background-color: lightgray;
+	border: none;
+	border-radius: 5px;
+	padding: 13px;
+	color: black;
+	width: 220px;
+	background-image: url('../../assets/search.svg');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 40px;
+	background-size: 20px 20px;
+}
+
+.logo {
+	margin-left: 23px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	font-size: 25px;
+}
+
+.logo span {
+	font-weight: 800;
+}
