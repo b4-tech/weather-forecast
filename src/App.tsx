@@ -1,17 +1,18 @@
-import ForecastSection from "./components/ForecastSection/ForecastSection"
-import TripSection from "./components/TripSection/TripSection"
-const App = () => {
+import "./App.css";
+import ForecastSection from "./components/ForecastSection/ForecastSection";
+import TripSection from "./components/TripSection/TripSection";
 
+const App = () => {
   return (
-    <div style={{ display: "flex" }}>
-      <div style={{ flex: "2" }}>
+    <div className="app-container">
+      <div className="trip-section">
         <TripSection />
       </div>
-      <div style={{ flex: "1" }}>
+      <div className="forecast-section">
         <ForecastSection />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
