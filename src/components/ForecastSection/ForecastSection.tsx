@@ -1,12 +1,12 @@
-import Countdown from "../Countdown/Countdown"
-import Forecast from "../Forecast/Forecast"
-import Navigation from "../Navigation/Navigation"
-import './style.css'
+import Countdown from "./Countdown"
+import Forecast from "./Forecast"
+import UserNavigation from "./UserNavigation"
+import './index.css'
 
 const ForecastSection = () => {
 	return (
-		<div className="forecast-section--container">
-			<Navigation />
+		<div className="forecast-section">
+			<UserNavigation />
 			<Forecast />
 			<Countdown />
 		</div>
